@@ -17,4 +17,4 @@ jobs:
         run: exit 1
         if: ${{github.event.repository.private}}
       - name: Tests
-        run: echo "All tests passed successfully" && exit 0
+        run: sleep 120
