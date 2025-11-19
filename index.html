@@ -572,17 +572,17 @@
         </li>
       </ul>
       <div class="save">
-        <button
-          class="button save__button button-paint btn-shad"
-          type="button"
-          onclick="window['modal'].showModal()"
-          aria-controls="modal"
-        >
-          <svg class="floppy" viewBox="0 0 41 41">
-            <use href="./svg/floppy.svg#floppy"></use>
-          </svg>
-          <span class="button__text">Сохранить на память</span>
-        </button>
+          <button
+            class="button save__button button-paint btn-shad"
+            type="button"
+            id="save-button"
+            aria-controls="modal"
+          >
+            <svg class="floppy" viewBox="0 0 41 41">
+              <use href="./svg/floppy.svg#floppy"></use>
+            </svg>
+            <span class="button__text">Сохранить на память</span>
+          </button>
         <dialog id="modal" class="popup">
           <div class="popup__content">
             <svg class="floppy-dlg" viewBox="0 0 41 41">
